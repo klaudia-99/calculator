@@ -10,7 +10,7 @@ Below is included the photo of the calculator and the visualization from inspira
 
 <img src="assets/3D_TI-2500-II.jpg" alt="TI-2500-II" width="300"> <img src="assets/calc.png" alt="Calculator" height="300">
 
-[`http://www.datamath.org/BASIC/DATAMATH/ti-2500-II.htm`](http://www.datamath.org/BASIC/DATAMATH/ti-2500-II.htm)
+[`Texas Instruments TI-2500-II / Datamath II`](http://www.datamath.org/BASIC/DATAMATH/ti-2500-II.htm)
 
 Build to give the impression
 
