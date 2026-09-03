@@ -4,7 +4,7 @@
 Site purely made with **HTML** code, *CSS* and vanilla ***Javascript***.
 _______________________
 # Inspiration
-Was mainly taken from the interactive calculators, especially the type <span style="color: rgb(202, 181, 126)">The Datamath II alias TI-2500-II</span>
+Was mainly taken from the interactive calculators, especially the type {The Datamath II alias TI-2500-II}[http://www.datamath.org/BASIC/DATAMATH/3D_TI-2500-II.htm]
 Build to give the impression
 
 
