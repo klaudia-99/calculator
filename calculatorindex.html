@@ -1,0 +1,85 @@
+<html lang="pl">
+<!DOCTYPE html>
+    <head>
+                 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+    </head>
+    <div class="write"></div>
+    <div class="calculator">
+    <div class="display">
+        <input type="text" class="result" readonly>
+    </div>
+    </div>
+<div class="buttons">
+<button onclick="backspace()" class="clearone" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">C</button>
+<button onclick="clearDisplay()" class="cleartwo" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">CE</button>
+<button onclick="calculateModulo()" class="modulo" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">%</button>
+<button onclick="calculateDivision()" class="divide" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">÷</button>
+<button onclick="calculateMultiplication()" class="multiply" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">x</button>
+<button onclick="calculateSubtraction()" class="subtract" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">-</button>
+<button onclick="calculateAddition()" class="add" style="background-color: var(--dark-yellow); border-color: var(--dark-yellow);">+</button>
+<button onclick="calculateEquals()" class="equals" style="background-color: var(--orange); border-color: var(--orange); width: 82px;">=</button>
+<button onclick="appendDecimal()" class="decimal" style="background-color: var(--light-lavender); border-color: var(--light-lavender);">.</button>
+<button onclick="appendNumber('0')" class="zero" style="width: 83px;">0</button>
+<button onclick="appendNumber('1')" class="one">1</button>
+<button onclick="appendNumber('2')" class="two">2</button>
+<button onclick="appendNumber('3')" class="three">3</button>
+<button onclick="appendNumber('4')" class="four">4</button>
+<button onclick="appendNumber('5')" class="five">5</button>
+<button onclick="appendNumber('6')" class="six">6</button>
+<button onclick="appendNumber('7')" class="seven">7</button>
+<button onclick="appendNumber('8')" class="eight">8</button>
+<button onclick="appendNumber('9')" class="nine">9</button>
+</div>
+        <script>
+        let resultElement = document.querySelector(".result");
+
+        function backspace() {
+            resultElement.value = resultElement.value.slice(0, -1);
+        }
+
+        function clearDisplay() {
+            resultElement.value = "";
+        }
+
+        function calculateModulo() {
+            resultElement.value += "%";
+        }
+
+        function calculateDivision() {
+            resultElement.value += "/";
+        }
+
+        function calculateMultiplication() {
+            resultElement.value += "*";
+        }
+
+        function calculateSubtraction() {
+            resultElement.value += "-";
+        }
+
+        function calculateAddition() {
+            resultElement.value += "+";
+        }
+
+        function calculateEquals() {
+            try {
+                resultElement.value = eval(resultElement.value);
+            } catch {
+                resultElement.value = "Error";
+            }
+        }
+
+        function appendDecimal() {
+            resultElement.value += ".";
+        }
+
+        function appendNumber(number) {
+            resultElement.value += number;
+        }
+    </script>
+</body>
+</html>
