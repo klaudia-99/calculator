@@ -8,7 +8,7 @@ Was mainly taken from the vintage calculators, especially the type <span style="
 
 Below is included the photo of the calculator and the visualization from inspiration made mainly with linear gradient providing the transition of colors between them.
 
-<img src="assets/3D_TI-2500-II.jpg" alt="TI-2500-II" width="350"> <img src="assets/calc.png" alt="Calculator" height="350">
+<img src="assets/3D_TI-2500-II.jpg" alt="TI-2500-II" width="325"> <img src="assets/calc.png" alt="Calculator" height="325">
 
 [`Texas Instruments TI-2500-II / Datamath II`](http://www.datamath.org/BASIC/DATAMATH/ti-2500-II.htm)
 
