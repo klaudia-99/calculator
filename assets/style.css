@@ -1,1 +1,222 @@
+:root {
+  --light-lavender: #e3e8e8;
+  --yellow: #aea17c;
+  --dark-yellow: #B7A573;
+  --gray: #9a8156;
+  --orange: #fe6f0f;
+  --dark-blue: #2b293e;
+  --light-blue: #35b7da;
+}
 
+body {
+    background-color: #fef9ee;
+}
+
+   .buttons button{
+        position: absolute;
+        background-color: var(--light-lavender);
+        border-color: var(--light-lavender);
+        font-family: 'Lato', sans-serif;
+        width:50px;
+        height:30px;
+        font-size: 25px;
+   }
+
+   .clearone{
+    top: 45.33%;
+    left: 41.33%;
+}
+
+   .cleartwo{
+    top: 45.33%;
+    left: 45.88%;
+}
+
+  .modulo{
+    top: 45.33%;
+    left: 50.33%;
+}
+
+  .divide{
+    top: 45.33%;
+    left: 54.88%;
+  }
+
+
+    .multiply{
+        top: 51.36%;
+        left: 54.88%;
+    }
+
+    .subtract{
+        top: 57.41%;
+        left: 54.88%;
+    }
+
+    .add{
+        top: 63.58%;
+        left: 54.88%;
+    }
+
+    .equals {
+        width:82px;
+        top: 70.32%;
+        left: 52.65%;
+    }
+
+    .decimal {
+        top: 70.32%;
+        left: 48.33%;
+    }
+
+    .zero {
+        width:83px;
+        top: 70.32%;
+        left: 41.33%;
+    }
+
+    .one {
+        top: 63.58%;
+        left: 41.33%;
+    }
+
+    .two {
+
+        top: 63.58%;
+        left: 45.88%;
+    }
+
+    .three {
+        top: 63.58%;
+        left: 50.32%;
+    }
+
+    .four {
+        top: 57.41%;
+        left: 41.33%;
+    }
+
+    .five {
+        top: 57.41%;
+        left: 45.88%;
+    }
+
+    .six {
+        top: 57.41%;
+        left: 50.32%;
+    }
+
+    .seven {
+        top: 51.36%;
+        left: 41.33%;
+    }
+
+    .eight {
+        top: 51.36%;
+        left: 45.88%;
+    }
+
+    .nine {
+        top: 51.36%;
+        left: 50.32%;
+    }
+ 
+    .display {
+        position: absolute;
+        background-color: var(--dark-blue);
+        border-color: var(--dark-blue);
+        font-family: 'Lato', sans-serif;
+        width:250px;
+        height:39.5px;
+        top: 20%;
+        left: 48.75%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+
+    .display input {
+        transform: translate(5%, 0%);
+        width: 90%;
+        text-align: right;
+        border: none;
+        background: none;
+        font-family: 'Lato', sans-serif;
+        color: var(--light-blue);
+        font-size: 25px;
+    }
+    
+  .write{
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:
+    
+    /* Top Section */
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 60px 25px / 15px 45px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 47.5px 40px / 40px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 110px 40px / 40px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 172.5px 25px / 15px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 202.5px 25px / 15px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 187.5px 40px / 15px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 172.5px 55px / 15px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 202.5px 55px / 15px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 242.5px 40px / 40px 15px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 255.5px 25px / 15px 13px,
+    linear-gradient(var(--light-blue) 10px, var(--light-blue) 150px) 255.5px 57px / 15px 13px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 30px top / 270px 90px;
+    background-repeat: no-repeat;
+  }
+
+  .calculator {
+    position: absolute;
+    width: 340px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:   
+    
+    /* Top Section */
+    linear-gradient(var(--dark-yellow) 10px, var(--dark-blue) 10px 150px, var(--dark-yellow) 150px) 50px 10px / 230px 120px,
+    linear-gradient(180deg, var(--gray) 10px, var(--dark-blue) 10px 220px, var(--gray) 140px) 40px 20px / 250px 100px,
+    linear-gradient(var(--gray), var(--gray)) 40px 20px / 250px 110px,
+    linear-gradient(var(--gray), var(--gray)) 30px top / 270px 120px,
+    linear-gradient(180deg, var(--gray) 10px, var(--dark-yellow) 10px) 20px 10px / 290px 140px,
+
+    /* Button Section */
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 45px 165px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 110px 165px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 175px 165px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 240px 165px / 50px 30px,
+
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 45px 210px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 110px 210px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 175px 210px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 240px 210px / 50px 30px,
+
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 45px 255px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 110px 255px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 175px 255px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 240px 255px / 50px 30px,
+
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 45px 300px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 110px 300px / 50px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 175px 300px / 50px 30px,
+    linear-gradient(var(--dark-yellow), var(--dark-yellow)) 240px 300px / 50px 30px,
+
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 45px 350px / 83px 30px,
+    linear-gradient(var(--light-lavender), var(--light-lavender)) 145px 350px / 50px 30px,
+    linear-gradient(var(--orange), var(--orange)) 208px 350px / 82px 30px,
+
+    /* Down Section */
+    linear-gradient(var(--gray) 10px, var(--gray) 10px) 20px 10px / 290px 330px,
+    
+    /* Back section */
+    linear-gradient(360deg, var(--gray) 96px, var(--gray) 96px) 20.5px 155px / 290px 15px,
+    linear-gradient(var(--gray), var(--gray)) 20px 160px / 290px 300px;
+    background-repeat: no-repeat; 
+
+  }
