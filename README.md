@@ -8,7 +8,7 @@ Was mainly taken from the vintage calculators, especially the type <span style="
 
 Below is included the photo of the calculator and the visualization from inspiration made mainly with linear gradient providing the transition of colors between them.
 
-<img src="assets/3D_TI-2500-II.jpg" alt="TI-2500-II" width="300"><img src="assets/" alt="
+<img src="assets/3D_TI-2500-II.jpg" alt="TI-2500-II" width="300"><img src="assets/calc.png" alt="Calculator" width="300">
 
 Build to give the impression
 
